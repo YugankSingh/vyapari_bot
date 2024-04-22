@@ -1,0 +1,1 @@
+add a check that if the message is more than 1 minute older, you should not respond to it.

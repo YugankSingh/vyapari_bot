@@ -1,0 +1,26 @@
+{
+	"name": "vyapari_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node ./src/index.ts --resolveJsonModule",
+		"start": "ts-node ./src/runBot.ts",
+		"getTelgramSession": "ts-node ./src/getGramSessionID",
+		"getQoutexSession": "ts-node ./src/getState qoutex"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@mtproto/core": "6.3.0",
+		"dotenv": "^16.4.5",
+		"input": "^1.0.1",
+		"puppeteer": "^22.6.4",
+		"socket.io-client": "^4.7.5",
+		"telegram": "^2.20.15"
+	},
+	"devDependencies": {
+		"typescript": "^5.4.5"
+	}
+}
